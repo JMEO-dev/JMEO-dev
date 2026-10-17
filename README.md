@@ -1,6 +1,6 @@
 ## Hi, I'm Jamal Mostafa Eahsan
 
-Software Engineer (L4) at **Codezzi**, based in Dhaka, Bangladesh.
+Software Engineer (L4) at **Codezzi Systems LLC**, based in Dhaka, Bangladesh.
 
 I'm a backend-focused engineer with about 5 years of experience building production web applications. Most of my work is on system design and backend architecture: designing clean APIs and data models, setting sensible service boundaries, and building services that stay reliable as they grow. I also work full-stack with React and Next.js.
 
