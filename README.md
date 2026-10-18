@@ -1,8 +1,8 @@
 ## Hi, I'm Jamal Mostafa Eahsan
 
-Software Engineer (L4) at **Codezzi Systems LLC**, based in Dhaka, Bangladesh.
+**Full Stack Developer & System Architect** · Software Engineer (L4) at **Codezzi Systems LLC**, based in Dhaka, Bangladesh.
 
-I'm a backend-focused engineer with about 5 years of experience building production web applications. Most of my work is on system design and backend architecture: designing clean APIs and data models, setting sensible service boundaries, and building services that stay reliable as they grow. I also work full-stack with React and Next.js.
+I'm a full stack developer and system architect with 4+ years of experience building production web applications. I work across the whole stack, from React and Next.js frontends to Node.js and NestJS APIs on PostgreSQL, and I also design the architecture underneath: multi-tenant data models, service boundaries, role-based access control, and real-time systems.
 
 ### What I've been building
 
@@ -11,9 +11,10 @@ I'm a backend-focused engineer with about 5 years of experience building product
 
 ### Tech I work with
 
-- **Backend:** Node.js, NestJS, Express, TypeScript, Socket.IO
-- **Frontend:** React, Next.js
+- **Frontend:** React, Next.js, TypeScript
+- **Backend:** Node.js, NestJS, Express, Socket.IO
 - **Data:** PostgreSQL, Prisma, MySQL, MongoDB
+- **Architecture:** multi-tenant design, RBAC, REST API design, real-time systems
 - **Tooling:** Docker, Git
 
 ### Get in touch
@@ -21,4 +22,4 @@ I'm a backend-focused engineer with about 5 years of experience building product
 - LinkedIn: [linkedin.com/in/jamalmostafaeahsan](https://www.linkedin.com/in/jamalmostafaeahsan/)
 - Email: [jmeahsan@gmail.com](mailto:jmeahsan@gmail.com)
 
-Happy to talk about backend architecture, system design, or interesting engineering roles.
+Always happy to talk about system architecture and full-stack work.
