@@ -51,7 +51,7 @@ Live app: [hiring-manager-umber.vercel.app](https://hiring-manager-umber.vercel.
 
 ### GitHub stats
 
-![GitHub stats](https://github-readme-stats.shion.dev/api?username=jmeo-dev&theme=gotham&hide_border=true&include_all_commits=false&count_private=false)
+![GitHub stats](https://github-readme-stats.shion.dev/api?username=jmeo-dev&theme=gotham&hide_border=true&include_all_commits=true&count_private=true)
 ![GitHub streak](https://streak-stats.demolab.com/?user=jmeo-dev&theme=gotham&hide_border=true)
 ![Top languages](https://github-readme-stats.shion.dev/api/top-langs/?username=jmeo-dev&theme=gotham&hide_border=true&layout=compact)
 
