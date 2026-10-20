@@ -11,7 +11,31 @@ I'm a full stack developer and system architect with 4+ years of experience buil
 - **Multi-tenant hiring management platform.** Company and super-admin portals covering positions, candidates, a configurable drag-and-drop pipeline, interviews, a talent pool, and email. Tenant isolation at the data layer, role-based access, per-company mail accounts, and scheduled bulk email that is safe to retry. *(Next.js, NestJS, Prisma, PostgreSQL; private repository)*
 - **Real-time live-chat platform for a contact centre.** Customer-facing chat, an agent console, and an admin portal, with real-time messaging over WebSockets. *(Client work; private repository)*
 
-Architecture write-ups for both are in [case-studies](https://github.com/JMEO-dev/case-studies).
+**How the hiring platform fits together:**
+
+```mermaid
+flowchart LR
+    SA["Super admin"]
+    CA["Company users<br/>(admin, recruiter, interviewer)"]
+    CAND["Candidates"]
+
+    subgraph Vercel
+        FE["Next.js frontend<br/>admin + super admin portals"]
+        API["NestJS REST API<br/>14 modules"]
+    end
+
+    DB[("PostgreSQL<br/>27 models")]
+    SMTP["Company SMTP mailboxes<br/>(one per tenant)"]
+
+    SA --> FE
+    CA --> FE
+    FE -->|"HTTPS + JWT"| API
+    API -->|"Prisma"| DB
+    API -->|"SMTP"| SMTP
+    SMTP -->|"invites, updates, offers"| CAND
+```
+
+Live app: [hiring-manager-umber.vercel.app](https://hiring-manager-umber.vercel.app). Architecture write-ups for both are in [case-studies](https://github.com/JMEO-dev/case-studies).
 
 ### Tech I work with
 
